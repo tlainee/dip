@@ -1,0 +1,43 @@
+def reward_function(params):
+
+    # Read input parameters
+
+    all_wheels_on_track = params['all_wheels_on_track']
+
+    progress = params['progress']
+
+    steps = params['steps']
+
+    speed = params['speed']
+
+    distance_from_center = params['distance_from_center']
+
+    track_width = params['track_width']
+
+    norm_dist_from_ctr = (distance_from_center*2)/track_width
+
+    # If we're on the road and we haven't just started,
+
+    # reward for most progress in fewest steps and mostly speed
+
+    if all_wheels_on_track and steps > 0:
+
+        reward = (progress/steps)*speed*speed
+
+    else:
+
+        # Give a very low reward by default
+
+        return float(0.001)
+
+    # Keep reasonable 80% of reward for within 20% of center
+
+    reward = reward * math.exp(-6.0*norm_dist_from_ctr*norm_dist_from_ctr)
+
+    # Reward a job well done (i.e. finishing)
+
+    if progress == 100:
+
+        reward *= 2
+
+    return float(reward)
