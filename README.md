@@ -5,7 +5,7 @@
 
 指南	https://docs.aws.amazon.com/zh_cn/deepracer/latest/developerguide/deepracer-get-started-training-model.html
 
-动图教程	https://d2k9g1efyej86q.cloudfront.net/
+贼简单动图教程	https://d2k9g1efyej86q.cloudfront.net/
 
 石墨公盘	https://shimo.im/sheets/OgzoJ7cUZAQqShO3/10DtQ/ 《dip公盘》
 
