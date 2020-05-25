@@ -1,4 +1,4 @@
-##基础路径
+## 基础路径
 
 
 登录	https://mstar-deepracer-111.signin.aws.amazon.com/console
