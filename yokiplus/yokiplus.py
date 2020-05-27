@@ -1,6 +1,21 @@
 def reward_function(params):
     '''
-    Example of rewarding the agent to follow center line
+    Hyperparameter
+    Value
+    Gradient descent batch size
+    64
+    Entropy
+    0.01
+    Discount factor
+    0.999
+    Loss type
+    Huber
+    Learning rate
+    0.0003
+    Number of experience episodes between each policy-updating iteration
+    20
+    Number of epochs
+    10
     '''
     
     # Read input parameters
