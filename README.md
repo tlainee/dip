@@ -14,3 +14,7 @@ teambition	企业号：5ca8653bca4fd40001b13a5a
 github	https://github.com/tlainee/dip.git
 	
 Bruce笔记-幕布	https://mubu.com/doc/2p8HzU_Eczl
+
+
+## 最新模型
+名称：midi-completeness-speed
